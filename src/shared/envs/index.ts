@@ -8,4 +8,8 @@ export const ENV = cleanEnv(process.env, {
     SWAGGER_USERNAME: str(),
     SWAGGER_PASSWORD: str(),
     PORT: num({ default: 3000 }),
+    // DB_CONNECTION: str(),
+    // DB_USERNAME: str(),
+    // DB_PASSWORD: str(),
+    // DB_URI: str(),
 })
